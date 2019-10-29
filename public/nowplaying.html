@@ -72,9 +72,9 @@
     <div id="isPlaying">
       <div id="containerCoverImage"></div>
       <div id="containerMusicInfo">
-        <div id="line1" class="colorChange textBold lineMusicInfo" style="font-size:43px">&nbsp;</div>
-        <div id="line2" class="colorChange lineMusicInfo" style="font-size:37px">&nbsp;</div>
-        <div id="line3" class="colorChange lineMusicInfo" style="font-size:37px">&nbsp;</div>
+        <div id="line1" class="colorChange textBold lineMusicInfo">&nbsp;</div>
+        <div id="line2" class="colorChange lineMusicInfo">&nbsp;</div>
+        <div id="line3" class="colorChange lineMusicInfo">&nbsp;</div>
         <div id="controlsPlayer">
           <button
             type="button"
@@ -119,6 +119,29 @@
           </button>
         </div>
         <div id="controlsSettings">
+          <button
+            type="button"
+            class="buttonFillHeight settingsButton"
+            id="buttonLoop"
+          ></button>
+          <button
+            type="button"
+            class="buttonFillHeight settingsButton"
+            id="buttonShuffle"
+          ></button>
+          <button
+            type="button"
+            class="buttonFillHeight settingsButton"
+            id="buttonRadio"
+          ></button>
+          <button
+            type="button"
+            class="buttonFillHeight settingsButton buttonAvailable"
+            id="buttonVolume"
+            onclick="$('#overlayVolume').show()"
+            name="Show Volume Controls"
+            aria-label="Show Volume Controls"
+          ></button>
           <button
             type="button"
             class="buttonFillHeight settingsButton buttonAvailable"
