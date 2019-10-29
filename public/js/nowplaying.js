@@ -110,7 +110,7 @@ function notifyMe(three_line) {
 function fixFontSize() {
   $(".lineMusicInfo").css(
     "font-size",
-    Math.round(parseInt($("#line1").height() * 0.70))
+    Math.round(parseInt($("#line1").height() * 0.62))
   );
 
   var zoneFontSize = Math.round(parseInt($("#containerZoneList").height() / 3));
