@@ -131,6 +131,8 @@
     height: 10%;
     width: 100%;
     max-height: 48px;
+    margin-bottom: -33%;
+    margin-left: 187px
     margin-bottom: 5%;
     display: flex;
     justify-content: space-around;
