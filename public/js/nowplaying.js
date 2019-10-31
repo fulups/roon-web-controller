@@ -110,12 +110,12 @@ function notifyMe(three_line) {
 function fixFontSize() {
   $(".lineMusicInfo").css(
     "font-size",
-    Math.round(parseInt($("#line1").height() * 0.62))
+    Math.round(parseInt($("#line1").height() * 0.82))
   );
 
   var zoneFontSize = Math.round(parseInt($("#containerZoneList").height() / 3));
   if (zoneFontSize <= 20) {
-    $("#nowplayingZoneList").css("font-size", 20);
+    $("#nowplayingZoneList").css("font-size", 30);
   } else {
     $("#nowplayingZoneList").css("font-size", zoneFontSize);
   }
