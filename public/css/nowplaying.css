@@ -160,7 +160,7 @@
 
 #trackSeek {
     width: 95%;
-    height: 5px;
+    height: 20px;
     border-radius: 10px;
     background-color: rgba(239, 240, 241, 0.33);
     position: relative;
@@ -189,11 +189,13 @@
 #trackSeekValue span.right {
     text-align: right;
     right: 0;
+    font-size: 16px;
 }
 
 #trackSeekValue span.left {
     text-align: left;
     left: 0;
+    font-size: 16px;
 }
 
 #notPlaying {
