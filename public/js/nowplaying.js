@@ -173,7 +173,7 @@ function showPage() {
   }
 
   if (settings.theme === undefined) {
-    settings.theme = "color";
+    settings.theme = "cover";
     setCookie("settings['theme']", settings.theme);
     setTheme(settings.theme);
   } else {
