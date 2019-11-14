@@ -123,13 +123,10 @@ function fixFontSize() {
 
 function showPage() {
   // Read settings from cookie
-  //settings.zoneID = readCookie("settings['zoneID']");
-  //settings.displayName = readCookie("settings['displayName']");
-  //settings.theme = readCookie("settings['theme']");
+  settings.zoneID = readCookie("settings['zoneID']");
+  settings.displayName = readCookie("settings['displayName']");
+  settings.theme = readCookie("settings['theme']");
 
-  settings.zoneID = "1601a4e93e802f456052f30a8c7322089cc0";
-  settings.displayName = "Streamy MKII";
-  settings.theme = "cover"
 
   var showNotifications = readCookie("settings['showNotifications']");
   if (showNotifications === "true") {
