@@ -10,7 +10,6 @@ function showPage() {
   // Read settings from cookie
   settings.zoneID = readCookie("settings['zoneID']");
   settings.displayName = readCookie("settings['displayName']");
-
   // Set page fields to settings
   if (settings.zoneID === null) {
     $("#overlayZoneList").show();
