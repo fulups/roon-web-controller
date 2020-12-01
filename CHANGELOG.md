@@ -1,10 +1,8 @@
 # Change Log
 
-## Version 1.2.12
+## Version 1.2.14
 
-Accessibility
-
-- corrected name and aria label for one of the zone list buttons
+- Merge 1.2.13 branches from https://github.com/pluggemi/roon-web-controller
 
 ### Upgrade Notes
 
@@ -23,6 +21,12 @@ Otherwise, on the Node.js server:
 ---
 
 # Release History
+
+## Version 1.2.12
+
+Accessibility
+
+- corrected name and aria label for one of the zone list buttons
 
 ## Version 1.2.11
 

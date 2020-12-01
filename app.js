@@ -106,11 +106,11 @@ var RoonApiBrowse = require("node-roon-api-browse");
 var roon = new RoonApi({
   extension_id: "com.pluggemi.web.controller",
   display_name: "Web Controller",
-  display_version: "1.2.12",
+  display_version: "1.2.14",
   publisher: "Mike Plugge",
   // log_level: "none",
   email: "masked",
-  website: "https://github.com/pluggemi/roon-web-controller",
+  website: "https://github.com/fulups/roon-web-controller",
 
   core_paired: function(core_) {
     core = core_;
